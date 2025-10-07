@@ -1,0 +1,126 @@
+@font-face {
+    font-family: game;
+    src: url(./Game\ Of\ Squids.ttf);
+}
+@font-face {
+    font-family: squid;
+    src: url(./GameOfSquids-1GMVL.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+#nav img{
+    height: 150px;
+    width:auto ;
+}
+
+#main h1{
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    font-size: 230px;
+    font-weight: 500;
+    font-family: game;
+    
+}
+
+#main h2{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-size: 220px;
+    font-weight: 500;
+    font-family: game;
+    
+}
+
+#tv{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 200px;
+}
+
+#tv h4{
+    margin-top: 20px;
+
+}
+
+#main img{
+    width: auto;
+}
+
+#first{
+    height: 400px;
+    position: absolute;
+    left: 58%;
+    border-radius: 0px 15px 0px 15px;
+    top: 45%;
+    z-index: -1;
+}
+#second{
+    height: 400px;
+    position: absolute;
+    left: 25%;
+    border-radius: 15px 0 15px 0;
+    top: 45%;
+    z-index: -1;
+}
+
+#third{
+    position: absolute;
+    left: 73%;
+    border-radius: 50%;
+    top: 15%;
+    z-index: -1;
+    height: 400px;
+    width: auto;
+}
+
+#main button{
+    background: linear-gradient(to right,#F44788,#218E91);
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+}
+#main button:hover{
+    color: #000;
+    transform: scale(1.05);
+}
+
+

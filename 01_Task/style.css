@@ -1,0 +1,152 @@
+
+@font-face {
+    font-family: naku;
+    src: url(./GODOFWAR.woff2);
+}
+
+
+/* boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* nav bar */
+
+#box{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(33, 14, 104);
+    
+}
+
+.title{
+    text-align: center;
+    color: white;
+    /* font-family: raju; */
+}
+
+#box h1{
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 35px;
+    font-family: naku;
+
+
+}
+
+.content{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+.about_me{
+    padding: 50px;
+    height: 150px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding-top: 15px;
+
+}
+
+.about_me p{
+    margin-top:16px;
+    font-size: 20px;
+}
+
+.hii{
+    padding-top: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+
+.education{
+    height: 250px;
+    background-color: rgb(148, 218, 241);
+    text-align: center;
+    padding: 50px;
+}
+
+.education p{
+    margin: 10px;
+    height: 40px;
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0 0 240px;
+    text-align:center;
+
+}
+
+.skills{
+    background-color: rgb(244, 242, 101);
+    height: 350px;
+        padding: 30px;
+}
+
+.projects{
+    background-color: rgb(140, 102, 207);
+    height: 250px;
+        padding: 30px;
+
+}
+
+.contact{
+    background-color: rgb(197, 245, 124);
+    height: 250px;
+        padding: 30px;
+
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.para p{
+    margin: 10px;
+    height: 40px;
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0 0 250px;
+    text-align:center;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(33, 14, 104);
+    color: white;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+footer h4{
+    text-align: center;
+    padding: auto;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+
+h4 b{
+    font-family: naku;
+}
+

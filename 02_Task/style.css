@@ -1,0 +1,57 @@
+@font-face {
+    font-family: f1;
+    src: url(./Hauntmark.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/1200x/56/da/33/56da3305f9de37ce5908f7ef3d486c9c.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    color: white;
+    text-align:center;
+}
+
+h1{
+    padding: 180px 0px 10px 350px;
+    font-family: f1;
+    color: #F0200C;
+    font-weight: 200;
+    
+}
+
+h1 b{
+        font-family: f1;
+        color: #000;
+}
+
+button{
+    background:linear-gradient(red,orange);
+    border: none;
+    color:white;
+    margin: 45px 0px 0px 350px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-family: f1;
+    
+    
+}
+
+button:hover{
+    background-color: darkorange;
+    transform: scale(1.05);
+        font-family: f1;
+    
+}
