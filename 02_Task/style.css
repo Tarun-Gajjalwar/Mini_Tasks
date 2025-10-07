@@ -1,6 +1,6 @@
 @font-face {
     font-family: f1;
-    src: url(./Hauntmark.ttf);
+    src: url(./Hauntmark.woff);
 }
 
 *{
@@ -17,7 +17,7 @@ html,body{
 #box{
     height: 100vh;
     width: 100%;
-    background-image: url(https://i.pinimg.com/1200x/56/da/33/56da3305f9de37ce5908f7ef3d486c9c.jpg);
+    background-image: url(./sukuna.webp);
     background-size: cover;
     /* background-position: center; */
     color: white;

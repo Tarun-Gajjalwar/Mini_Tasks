@@ -1,11 +1,8 @@
 @font-face {
     font-family: game;
-    src: url(./Game\ Of\ Squids.ttf);
+    src: url(./Game\ Of\ Squids.woff2);
 }
-@font-face {
-    font-family: squid;
-    src: url(./GameOfSquids-1GMVL.ttf);
-}
+
 
 *{
     margin: 0;
