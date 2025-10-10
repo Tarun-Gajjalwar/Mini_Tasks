@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}section{
+    height: 1010px;
+    width: 100%;
+    background-color:#111111;
+        /* background: linear-gradient(#694B1A,#6E2F20); */
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 60px 250px 250px 250px;
+    justify-content: center;
+    grid-gap: 50px;
+    grid-template-areas: "header header header header"
+                         "card1 card2 card3 card4"
+                         "card5 card6 card7 card8"
+                         "card9 card10 card11 card12";
+
+
+
+}
+
+
+.cards{
+    height: 250px;
+    width: 250px;
+    background-color: coral;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.cards img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.bottom{
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(transparent,#000 90%);
+    position: absolute;
+    bottom: -40%;
+    transition: all ease 0.5s;
+    color: #fff;
+    font-family: darling;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.bottom h3 i{
+    /* color: #000; */
+    border-radius: 50%;
+    /* background: #fff; */
+}
+
+
+
+.cards:hover .bottom{
+    bottom: 0;
+}
+
+
+
+header{
+    background: linear-gradient(#694B1A,#6E2F20);
+    grid-area: header;
+    border-radius: 15px;
+    text-align: center;
+    font-family: darling;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+header h2{
+    margin-top: 15px;
+}
+
+#card1{
+    background-color: aqua;
+    grid-area: card1;
+
+}
+
+
+
+#card2{
+    background-color: rgb(0, 255, 157);
+    grid-area: card2;
+}
+#card3{
+    background-color: rgb(255, 183, 0);
+    grid-area: card3;
+}
+#card4{
+    background-color: rgb(255, 0, 251);
+    grid-area: card4;
+}
+#card5{
+    background-color: rgb(111, 0, 255);
+    grid-area: card5;
+}
+#card6{
+    background-color: rgb(147, 225, 140);
+    grid-area: card6;
+}
+
+#card7{
+    background-color: rgb(233, 147, 232);
+    grid-area: card7;
+}
+#card8{
+    background-color: rgb(162, 120, 216);
+    grid-area: card8;
+}
+#card9{
+    background-color: rgb(236, 126, 135);
+    grid-area: card9;
+}
+#card10{
+    background-color: rgb(236, 126, 135);
+    grid-area: card10;
+}
+#card11{
+    background-color: rgb(236, 126, 135);
+    grid-area: card11;
+}
+#card12{
+    background-color: rgb(236, 126, 135);
+    grid-area: card12;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#parent{
+    height:50%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 10px;
+    flex-wrap: nowrap;
+    padding: 30px;
+    overflow: auto;
+    
+}
+
+#parent::-webkit-scrollbar{
+    height: 10px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+#parent::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 30px;
+
+}
+
+#child{
+    flex-shrink: 0;
+    height: 100%;
+    width: 20%;
+    background-color: khaki;
+    border-radius: 30px;
+
+
+}
+
+#child img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
