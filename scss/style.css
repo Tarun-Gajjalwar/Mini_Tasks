@@ -9,6 +9,22 @@ html, body {
   width: 100%;
 }
 
-h1 {
-  color: blueviolet;
+main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-grow: 1;
+  gap: 20px;
+  padding: 10px;
+}
+main #box {
+  height: 100%;
+  width: 100%;
+}
+main #box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

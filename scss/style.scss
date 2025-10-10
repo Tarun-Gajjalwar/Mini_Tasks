@@ -9,6 +9,26 @@ html,body{
     width: 100%;
 }
 
-h1{
-    color: blueviolet;
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+    padding: 10px;
+
+
+    #box{
+        height: 100%;
+        width: 100%;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    
 }
