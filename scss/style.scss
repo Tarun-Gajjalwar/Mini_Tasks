@@ -14,21 +14,39 @@ main{
     width: 100%;
     background-color: black;
     display: flex;
-    flex-grow: 1;
     gap: 20px;
     padding: 10px;
 
 
     #box{
         height: 100%;
-        width: 100%;
-
-        img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
+        flex-grow: 1;
+        background-size: cover;
+        transition: all 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        
+    }
+    
+    #box:hover{
+        cursor: pointer;
+        flex-grow: 3;
     }
 
+    #box:nth-child(1){
+        background-image: url(https://i.pinimg.com/736x/34/be/f0/34bef0795c4cdcb7807f0e8956455aed.jpg);
+        background-position: center;
+    }
+    #box:nth-child(2){
+        background-image: url(https://i.pinimg.com/736x/9f/f6/7e/9ff67e7ce268c15b0671606943ab4b99.jpg);
+    }
+    #box:nth-child(3){
+        background-image: url(https://i.pinimg.com/736x/be/c0/52/bec052b7c331c76b1b08feb5244c8e9f.jpg);
+    }
+    #box:nth-child(4){
+        background-image: url(https://i.pinimg.com/736x/3d/ef/61/3def6195a735076eecac525b2306ee40.jpg);
+        background-position: center;
+    }
+    #box:nth-child(5){
+        background-image: url(https://i.pinimg.com/1200x/77/d9/10/77d910a6eac2a7ffe65e7ac9c8c59de9.jpg);
+    }
     
 }
