@@ -20,6 +20,7 @@
 ![cards scroll](000Images/task6.png)
 
 ## Task 7
+![responsive](000Images/responsiveWebsite.png)
 
 ## Task 8
 
@@ -29,3 +30,8 @@
 
 ## scss
 ![tollyhood heroes](000Images/scss.png)
+
+## Matrix Effect
+![matrix](000Images/matrixEffect.png)
+
+
