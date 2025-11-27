@@ -1,0 +1,53 @@
+step1: link CDN (Content Delivery Network)
+step2: write Gsap in Js file
+
+:> for set animation to any div or box <:
+
+gsap.to("#box",{
+    x:500,
+    duration:2,
+    delay:1,
+    rotate:360,
+    backgroundColor:"red",
+
+});
+
+:> for text :<
+
+gsap.to("h1",{
+    opacity:0,
+    y:30, 
+    duration:2, => travel in that time
+    delay:1, => to wait
+    stagger:1, => to come one by one 
+    repeat:-1 => to animate infinite times
+    yoyo:true => to and fro motions
+});
+
+gsap.timeline(); => to animate one by one 
+
+
+    scrollTrigger:{
+        trigger:"#page2 #box",
+        scroller:"body",
+        markers:true, => to adjust animations
+        start:"top 60%" 
+        scrub:1 to 5 or true or false =>for smooth animation it totally depends on scroll bar
+        pin:true
+    }
+
+
+to scroll any word :>
+gsap.to("#page2 h1",{
+    transform: "translateX(-120%)",
+    scrollTrigger:{
+        trigger:"#page2",
+        scroller:"body",
+        markers:true,
+        start:"top 0%",
+        end:"top -150%",
+        scrub:2,
+        pin:true,
+    }
+})
+
