@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border-radius: 50%;
+
+}
+
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(203, 13, 13);
+    border-radius: 50%;
+}
+
+button{
+    background-color: crimson;
+    border-radius: 5%;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+button:active{
+    scale: 0.9;
+}
