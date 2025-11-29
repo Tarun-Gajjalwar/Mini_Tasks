@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    font-family: system-ui;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes borderAnimate {
+    from{
+        --rotate:0deg;
+    }
+    to{
+        --rotate:360deg;
+    }
+    
+}
+
+.box{
+    max-width: 300px;
+    padding-inline:10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.box img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.box h3 {
+    font-size: 1px;
+    
+}
+
+.box p{
+    font-size: 14px;
+}
+
+.box:hover{
+    border-radius: 15px;
+    border: 5px solid rgba(255, 255, 255, 0);
+    animation: borderAnimate 5s;
+    animation-iteration-count: infinite;
+
+}
+
+.one:hover{
+    color: #F75E06;
+    box-shadow: 0 0 60px #F75E06;
+    background:
+    linear-gradient(black) padding-box,
+    conic-gradient(from var(--rotate), black,#F75E06,black) border-box;
+}
+.two:hover{
+    color: #24A2F4;
+    box-shadow: 0 0 60px #24A2F4;
+    background:
+    linear-gradient(black) padding-box,
+    conic-gradient(from var(--rotate), black,#24A2F4,black) border-box;
+}
+.three:hover{
+    color: #FDC01B;
+    box-shadow: 0 0 60px #FDC01B;
+    background:
+    linear-gradient(black) padding-box,
+    conic-gradient(from var(--rotate), black,#FDC01B,black) border-box;
+}
+

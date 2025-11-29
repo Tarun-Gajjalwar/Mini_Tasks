@@ -1,20 +1,20 @@
 ## Nav Bar Animation
-![navbar](images/navbar.png)
+![navbar](000Images/navbar.png)
 
 ## Scroller
-![scroller](images/scroller.png)
+![scroller](000Images/scroller.png)
 
 ## String
-![string](images/string.png)
+![string](000Images/string.png)
 
 ## Cursor Animation
-![cursor](images/cursoranimation.png)
+![cursor](000Images/cursoranimation.png)
 
 ## Hamburger
-![humburger](images/hamburger.png)
+![humburger](000Images/hamburger.png)
 
 ## Textanimation
-![text](images/text.png)
+![text](000Images/text.png)
 
 ## scrollText
-![scrolltext](images/scrolltext.png)
+![scrolltext](000Images/scrolltext.png)
